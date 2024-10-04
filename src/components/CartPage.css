@@ -1,0 +1,96 @@
+/* CartPage.css */
+
+/* General cart page styling */
+.cart-page {
+  font-family: "Press Start 2P", cursive; /* Pixelated font */
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+
+  margin: 60px auto;
+  width: 60%;
+}
+
+/* Cart title */
+.cart-title {
+  font-size: 2.5rem;
+  color: #2f3742;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  display: inline-block;
+  border-bottom: 3px solid #2f3742;
+}
+
+/* Empty cart message */
+.empty-cart {
+  color: #6d7a82;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+/* List of cart items */
+.cart-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Cart item styling */
+.cart-item {
+  background-color: #f5e7d6;
+  border: 2px solid #2f3742;
+  padding: 15px;
+  margin: 15px auto;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0 #2f3742;
+}
+
+/* Item titles */
+.item-title {
+  font-size: 1.2rem;
+  color: #2f3742;
+  margin-bottom: 10px;
+}
+
+/* Item details */
+.item-quantity,
+.item-price {
+  font-size: 1rem;
+  color: #6d7a82;
+  margin: 15px;
+}
+
+/* Cart total */
+.cart-total {
+  font-size: 1.8rem;
+  color: #2f3742;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 3px dashed #2f3742;
+}
+
+/* Button styles */
+button {
+  background-color: #2f3742;
+  color: white;
+  font-size: 1rem;
+  font-family: "Press Start 2P", cursive;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5f6a75;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+  .cart-item {
+    max-width: 100%;
+  }
+}

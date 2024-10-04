@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/joystix");
+:root {
+  --header-height: 4rem;
+  --first-color: #26475f;
+  --first-color-alt: #cdc2ae;
+  --second-color: #3a696d;
+  --title-color: #26475f;
+  --text-color: #26475f;
+  --text-color-light: #c2ded1;
+  --body-color: #fff;
+  --container-color: #cdc2ae;
+  --border-color: #f3f0e4;
+  --border-color-alt: #f8f8f8;
+  /* #ece5c7 */
+
+  /* font and typography */
+
+  --body-font: "Joystix", sans-serif;
+  --second-font: "Joystix", sans-serif;
+}
+
+.login-container {
+  font-family: "Joystix", sans-serif;
+  background-color: #e5dac8; /* Beige background */
+  padding: 40px;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  font-family: "Arial", sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Joystix", sans-serif;
+}
+
+.submit-button:hover {
+  background-color: #34495e;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.submitted-data {
+  margin-top: 30px;
+  background-color: #e5e5e5;
+  padding: 30px 15px;
+  border-radius: 5px;
+}

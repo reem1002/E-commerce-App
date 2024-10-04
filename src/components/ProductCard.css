@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/joystix");
+:root {
+  --header-height: 4rem;
+  --first-color: #26475f;
+  --first-color-alt: #cdc2ae;
+  --second-color: #3a696d;
+  --title-color: #26475f;
+  --text-color: #26475f;
+  --text-color-light: #c2ded1;
+  --body-color: #fff;
+  --container-color: #cdc2ae;
+  --border-color: #f3f0e4;
+  --border-color-alt: #f8f8f8;
+  /* #ece5c7 */
+
+  /* font and typography */
+
+  --body-font: "Joystix", sans-serif;
+  --second-font: "Joystix", sans-serif;
+
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.75rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.75rem;
+  --h4-font-size: 1.375rem;
+  --large-font-size: 1.125rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.75rem;
+  --tiny-font-size: 0.6875rem;
+
+  /* font weight */
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+
+  /*transition*/
+  --transition: cubic-bezier(0, 0, 0.05, 1);
+}
+
+/*responsive typography*/
+@media screen and (max-width: 1200px) {
+  :root {
+    --big-font-size: 2.25rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.375rem;
+    --h3-font-size: 1.25rem;
+    --h4-font-size: 1.125rem;
+    --large-font-size: 1rem;
+    --normal-font-size: 0.9375rem;
+    --small-font-size: 0.8125rem;
+    --smaller-font-size: 0.6875rem;
+    --tiny-font-size: 0.625rem;
+  }
+}
+.product__btn {
+  background-color: #1e3a63; /* Background color */
+  color: #ffffff; /* Text color */
+  padding: 20px; /* Padding for proper spacing */
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+
+  /* These properties will center the text */
+  display: inline-flex;
+  justify-content: center; /* Horizontally centers the text */
+  align-items: center; /* Vertically centers the text */
+  text-align: center; /* Ensure the text is centered */
+  line-height: 1; /* Helps to center text vertically */
+}
+.product__btn__rmv {
+  background-color: #cd2222; /* Background color */
+  color: #ffffff; /* Text color */
+  border: none;
+  padding: 12.5px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: "Joystix", sans-serif;
+
+  /* These properties will center the text */
+  display: inline-flex;
+  justify-content: center; /* Horizontally centers the text */
+  align-items: center; /* Vertically centers the text */
+  text-align: center; /* Ensure the text is centered */
+  line-height: 1; /* Helps to center text vertically */
+}
+
+.product__btns {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.product__btn:hover {
+  background-color: #0f1d32; /* Change background color on hover */
+}
+
+.product__btn__rmv:hover {
+  background-color: #580101; /* Change background color on hover */
+}
+
+.product__counter {
+  margin-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
